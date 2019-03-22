@@ -260,6 +260,10 @@ p {
 .blog-boxes h2, .blog-boxes p {
     padding: 0.5rem;
 }
+/* Contact */
+form {
+    display: flex;
+}
 
 footer {
     width: 100%;

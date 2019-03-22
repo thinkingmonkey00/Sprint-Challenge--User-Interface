@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Sprint Challenge - About</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="container about-page">
+      <header>
+        <div class="nav-wrapper">
+          <nav class="main-nav">
+            <a href="" class="nav-logo"
+              ><img src="img/lambda-black.png" alt=""
+            /></a>
+            <a class="nav-links" href="index.html" class="home">Home</a>
+            <a class="nav-links" href="about.html" class="about">About</a>
+            <a class="nav-links" href="" class="products">Products</a>
+            <a class="nav-links" href="blog.html" class="blog">Blog</a>
+            <a class="nav-links" href="" class="contact">Contact</a>
+          </nav>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1529288619019-492bd08e0ab9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+          alt=""
+          class="header-img"
+        />
+      </header>
+
+      <form
+        action=""
+        method="post"
+      >
+        <!-- Left column -->
+        <div class="column-50">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your name"
+            required="required"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your e-mail"
+            required="required"
+          />
+        </div>
+        <!--
+                Right column
+                -->
+        <div class="column-50">
+          <input type="tel" name="tel" placeholder="Phone" />
+          <label class="custom-select">
+            <select name="department">
+              <option disabled="" selected="">Select department</option>
+              <option>Sales</option>
+              <option>Marketing</option>
+              <option>Customer Service</option>
+              <option>General Questions</option> </select
+            ><span><!-- fake select handler --></span>
+          </label>
+        </div>
+        <div class="column-100">
+          <textarea
+            name="message"
+            placeholder="Type your message here..."
+          ></textarea>
+        </div>
+        <div class="">
+          <input
+            type="submit"
+            value="Send"
+            data-error="Fix errors"
+            data-processing="Sending..."
+            data-success="Thank you!"
+            data-initial="Send"
+            class=" state-initial"
+          />
+        </div>
+      </form>
+
+      <footer>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="#">About</a>
+          <a href="#">Products</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </footer>
+    </div>
+    <!-- container -->
+  </body>
+</html>
