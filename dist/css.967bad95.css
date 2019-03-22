@@ -189,6 +189,29 @@ p {
     padding-right: 0;
 }
 
+/* About page */
+
+.about-intro {
+    padding: 1rem;
+    border-bottom: 1px solid lightslategray;
+}
+.info-boxes-container {
+    margin: 0 auto;
+    /* width: 700px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+}
+.info-boxes {
+    width: 320px;
+    margin: 1rem;
+}
+.info-boxes img {
+    max-width: 320px;
+}
+/* end About */
+
 footer {
     width: 100%;
     background: black;
