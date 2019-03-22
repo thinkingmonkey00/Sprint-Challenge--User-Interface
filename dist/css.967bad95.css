@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -82,11 +82,24 @@ p {
   header {
     position: relative;
   }
+  .nav-wrapper {
+      padding: 0 0.5rem;
+  }
   .main-nav {
     height:5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .nav-links {
+      text-decoration: none;
+      color: black
+  }
+  .nav-logo {
+      padding-bottom: 1rem;
+  }
+  .header-img {
+      max-width: 736px;
   }
 
   /* end header and nav */
