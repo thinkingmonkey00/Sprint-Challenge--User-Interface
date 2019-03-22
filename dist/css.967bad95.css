@@ -193,7 +193,7 @@ p {
 
 .about-intro {
     padding: 1rem;
-    border-bottom: 1px solid lightslategray;
+    border-bottom: 1px dashed black;
 }
 .info-boxes-container {
     margin: 0 auto;
@@ -210,6 +210,13 @@ p {
 .info-boxes img {
     max-width: 320px;
 }
+.info-boxes:nth-of-type(3),
+.info-boxes:nth-of-type(4),
+.bottom-box {
+    padding-top: 3rem;
+    border-top: 1px dashed black;
+}
+
 /* end About */
 
 footer {
