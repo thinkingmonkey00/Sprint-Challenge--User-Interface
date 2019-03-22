@@ -71,10 +71,6 @@ p {
     border: 1px solid black;
   } */
 
-header {
-    position: relative;
-}
-
 .nav-wrapper {
     padding: 0 0.5rem;
 }
