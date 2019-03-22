@@ -228,7 +228,7 @@ header {
 }
 
 .info-boxes button, .blog-boxes button {
-    margin: 1rem 0;
+    margin: 1rem 0.25rem;
     padding: 0.5rem 1.5rem;
     background-image: linear-gradient(white, white);
     color: black;
@@ -289,7 +289,8 @@ footer nav a {
 /* tablet */
 @media only screen 
    and (max-width : 768px) {
-   .info-boxes-container {
+   .info-boxes-container,
+   .blog-boxes-container {
        flex-direction: column;
    }
 }
